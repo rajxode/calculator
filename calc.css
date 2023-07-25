@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+/* styling rows */
+tr {
+  width: 200px;
+  height: 40px;
+}
+
+/* styling all the columns */
+.button {
+  width: 50px;
+  height: inherit;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* calculation display */
+#input_box {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 60px;
+  color: blue;
+  background-color: lightgrey;
+}
+
+/* change color of buttons on hovering */
+td:hover {
+  background-color: lightgrey;
+}
+
+/* styling operation buttons */
+.symbol {
+  background-color: lightblue;
+  font-weight: 600;
+}
+
+/* changing color of button on hovering */
+.symbol:hover {
+  background-color: deepskyblue;
+}
